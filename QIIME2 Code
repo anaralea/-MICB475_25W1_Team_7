@@ -7,8 +7,8 @@ cd /data/deer_project2
 
 # Import data & demultiplex using the mainfest file while working directory is `/data/deer_project2`
 qiime tools import \
-  --type "SampleData[SequencesWithQuality]" \
-  --input-format SingleEndFastqManifestPhred33V2 \
+  --type "SampleData[PairedEndSequencesWithQuality]" \
+  --input-format PairedEndFastqManifestPhred33V2 \
   --input-path /datasets/project_2/prion/deer2_manifest.tsv \
   --output-path demux.qza
 
