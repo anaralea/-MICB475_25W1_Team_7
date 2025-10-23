@@ -34,6 +34,8 @@ qiime dada2 denoise-paired \
   --i-demultiplexed-seqs demux.qza \
   --p-trim-left-f 0 \
   --p-trunc-len-f 250 \
+  --p-trim-left-r 0 \
+  --p-trunc-len-r 250 \
   --o-representative-sequences rep-seqs.qza \
   --o-table table.qza \
   --o-denoising-stats stats.qza
