@@ -30,10 +30,10 @@ scp root@10.19.139.157:/data/deer_project2/demux.qzv . # Include period!!!
 # Once you have the demux.qzv file, send it to Evelyn to confirm trimming before moving forward!
 
 # Determine ASVs with DADA2 with chosen left and right trimming parameters!
-qiime dada2 denoise-single \
+qiime dada2 denoise-paired \
   --i-demultiplexed-seqs demux.qza \
-  --p-trim-left 0 \
-  --p-trunc-len 250 \
+  --p-trim-left-f 0 \
+  --p-trunc-len-f 250 \
   --o-representative-sequences rep-seqs.qza \
   --o-table table.qza \
   --o-denoising-stats stats.qza
