@@ -32,8 +32,8 @@ scp root@10.19.139.157:/data/deer_project2/demux.qzv . # Include period!!!
 # Determine ASVs with DADA2 with chosen left and right trimming parameters!
 qiime dada2 denoise-single \
   --i-demultiplexed-seqs demux.qza \
-  --p-trim-left X \
-  --p-trunc-len XXX \
+  --p-trim-left 0 \
+  --p-trunc-len 250 \
   --o-representative-sequences rep-seqs.qza \
   --o-table table.qza \
   --o-denoising-stats stats.qza
