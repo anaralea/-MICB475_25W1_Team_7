@@ -1,4 +1,21 @@
 # -MICB475_25W1_Team_7
+## October 24, 2025
+### Agenda:
+  [Link to Proposal Here](https://docs.google.com/document/d/1P7zjuJCClrZfTSDmK4jr_p3a6KggbvnTL8H-YwDolqA/edit?usp=sharing)
+  1. Discuss new metadata
+  - Changes to the focus of the project (farm comparison, or sex comparison?)
+  - Changes to the aims
+  - Sample SRR23559504 is missing the sex of that sample
+  2. Discuss QIIME2 processing
+  - Go over rough QIIME2 code
+  - Troubleshooting difficulties
+  3. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week
+  - Discuss potential to take on more beyond just QIIME2 processing and proposal
+  4. Deadlines for the proposal
+  - Soft deadline: October 31st (next meeting)
+  - Final deadline: November 2nd 11:59PM
+
 ## October 17, 2025
 ### Agenda:
   [Link to Proposal Here](https://docs.google.com/document/d/1P7zjuJCClrZfTSDmK4jr_p3a6KggbvnTL8H-YwDolqA/edit?usp=sharing)
