@@ -1,4 +1,21 @@
 # -MICB475_25W1_Team_7
+## October 31, 2025
+### Agenda:
+  [Link to Proposal Here](https://docs.google.com/document/d/1P7zjuJCClrZfTSDmK4jr_p3a6KggbvnTL8H-YwDolqA/edit?usp=sharing)
+  1. Discuss QIIME2 processing
+  - Issues with artificial quality scores
+  - Updates from Avril
+  - Next steps
+  2. New Dataset Wrangling Section
+  - Go over what is on proposal so far
+  - What else should be included? What level of detail?
+  3. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week
+  - Discuss goals for next meeting
+  4. Deadlines for the proposal
+  - Soft deadline: TODAY!
+  - Final deadline: November 2nd 11:59PM
+
 ## October 24, 2025
 ### Agenda:
   [Link to Proposal Here](https://docs.google.com/document/d/1P7zjuJCClrZfTSDmK4jr_p3a6KggbvnTL8H-YwDolqA/edit?usp=sharing)
