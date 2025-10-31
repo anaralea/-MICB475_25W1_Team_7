@@ -6,13 +6,16 @@
   - Issues with artificial quality scores
   - Updates from Avril
   - Next steps
-  2. New Dataset Wrangling Section
+  2. Gantt Chart
+  - How to get rid of blue bars and only keep orange?
+  - How to select for certain bars only to change colours?
+  3. New Dataset Wrangling Section
   - Go over what is on proposal so far
   - What else should be included? What level of detail?
-  3. Plan actionables for next week/meeting
+  4. Plan actionables for next week/meeting
   - Discuss schedules/availabilities for next week
   - Discuss goals for next meeting
-  4. Deadlines for the proposal
+  5. Deadlines for the proposal - do we need more time or no?
   - Soft deadline: TODAY!
   - Final deadline: November 2nd 11:59PM
 
