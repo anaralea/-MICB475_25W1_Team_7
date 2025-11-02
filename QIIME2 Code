@@ -9,23 +9,23 @@ cd /data/deer_project2
 qiime tools import \
   --type "SampleData[PairedEndSequencesWithQuality]" \
   --input-format PairedEndFastqManifestPhred33V2 \
-  --input-path /datasets/project_2/prion/deer2_manifest.tsv \
-  --output-path demux.qza
+  --input-path /datasets/project_2/prion/deer2_manifest.txt \
+  --output-path demux_quality.qza
 
 # Look at artifact information
-qiime tools peek demux.qza
+qiime tools peek demux_quality.qza
 
 # Create visualization of demultiplexed samples
 qiime demux summarize \
-  --i-data demux.qza \
-  --o-visualization demux.qzv
+  --i-data demux_quality.qza \
+  --o-visualization demux_quality.qzv
 
 # Make directory in home directory on LOCAL machine
 mkdir deer_project2
 cd deer_project2
 
 # Copy file
-scp root@10.19.139.157:/data/deer_project2/demux.qzv . # Include period!!!
+scp root@10.19.139.157:/data/deer_project2/demux_quality.qzv . # Include period!!!
 
 # Once you have the demux.qzv file, send it to Evelyn to confirm trimming before moving forward!
 
