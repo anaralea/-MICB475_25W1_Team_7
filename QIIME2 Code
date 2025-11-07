@@ -82,3 +82,23 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-masked-alignment masked-aligned-rep-seqs.qza \
   --o-tree unrooted-tree.qza \
   --o-rooted-tree rooted-tree.qza
+
+# Convert the table.qza into a text file
+qiime tools export \
+  --input-path table.qza \
+  --output-path table_export 
+
+biom convert \
+  -i table_export/feature-table.biom \
+  --to-tsv \
+  -o feature-table.txt
+
+# Convert the rooted-tree.qza to nwk
+qiime tools export \
+  --input-path rooted-tree.qza \
+  --output-path tree_export
+
+# Convert the taxonomy.qza to tsv
+qiime tools export \
+  --input-path taxonomy.qza \
+  --output-path taxa_export
