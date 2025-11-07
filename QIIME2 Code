@@ -50,9 +50,17 @@ qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
   --o-visualization rep-seqs.qzv
 
+# Create a new classifier
+qiime feature-classifier extract-reads \
+  --i-sequences /datasets/classifiers/silva_ref_files/silva-138-99-seqs.qza \
+  --p-f-primer TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG \
+  --p-r-primer GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC \
+  --p-trunc-len 250 \
+  --o-reads ref-seqs.qza
+
 # Taxonomic analysis
 qiime feature-classifier classify-sklearn \
-  --i-classifier /datasets/classifiers/silva-138-99-515-806-nb-classifier.qza \
+  --i-classifier ref-seqs.qza \
   --i-reads rep-seqs.qza \
   --o-classification taxonomy.qza
 
