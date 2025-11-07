@@ -1,13 +1,29 @@
 # -MICB475_25W1_Team_7
 ## November 7, 2025
 ### Agenda:
+_Note: Please edit/update the Nov_7.md file in the Meeting_minutes folder with today's meeting notes!_
 1. Discuss Qiime2 processing
 - Metadata was modified based on Keemei feedback
   - sample_name column changed to samplename
 - Which classifier to use for taxonomy?
-- What kind of filtering needs to be done in Qiime2 (if any)?
+- What kind of filtering needs to be done in QIIME2 (if any)?
   - Mitochondria and Chloroplast, frequency based, metadata based
-- Are we doing Alpha rarefaction and diversity metrics in Qiime2?
+- Are we doing Alpha rarefaction and diversity metrics in QIIME2?
+2. Phyloseq Code
+- Go over code that was uploaded
+- Does it look good?
+- How are we separating male/female?
+3. Next steps
+- What processing and analysis are we doing next?
+- Alpha & beta diversity (aim 1)
+- Core microbiome & indicator taxa (aim 2)
+- Differential abundance analysis (aim 3)
+- Functional analysis (aim 4)
+4. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week
+  - Delegate tasks
+  - Discuss goals for next meeting
+    
 ## October 31, 2025
 ### Agenda:
   [Link to Proposal Here](https://docs.google.com/document/d/1P7zjuJCClrZfTSDmK4jr_p3a6KggbvnTL8H-YwDolqA/edit?usp=sharing)
