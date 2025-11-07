@@ -1,8 +1,3 @@
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install("phyloseq")
-
 library(phyloseq)
 library(ape) # importing trees
 library(tidyverse)
@@ -10,15 +5,19 @@ library(vegan)
 
 #### Load data ####
 # Change file paths as necessary
+# This is the metadata
 metafp <- "sample-data.txt"
 meta <- read_delim(metafp, delim="\t")
 
+# This is the table.qza converted to txt
 otufp <- "feature-table.txt"
 otu <- read_delim(file = otufp, delim="\t", skip=1)
 
+# This is the taxonomy.qza converted to a tsv
 taxfp <- "taxonomy.tsv"
 tax <- read_delim(taxfp, delim="\t")
 
+# This is your rooted tree converted to nwk
 phylotreefp <- "tree.nwk"
 phylotree <- read.tree(phylotreefp)
 
@@ -58,17 +57,11 @@ deer <- phyloseq(OTU, SAMP, TAX, phylotree)
 #### Remove chloroplasts, mitochondria, non-bacterial samples ####
 deer_filt <- subset_taxa(deer,  Domain == "d__Bacteria" & Class!="c__Chloroplast" & Family !="f__Mitochondria")
 
-#### Remove samples where shannon_entropy is NA ####
-deer_filt2 <- subset_samples(deer_filt, !is.na(shannon_entropy))
+# Subset the data for males and females
+deer_female <- subset_samples(deer_filt, host_sex == "female")
+deer_male <- subset_samples(deer_filt, host_sex == "male")
 
-#### Plot alpha diversity ####
-plot_richness(deer_filt2, x="elevation", measures="Shannon") +
-xlab("Elevation")
+## Save phyloseq objects to computer
+save(deer_female, file = "deer_female_phyloseq.RData")
+save(deer_male, file = "deer_male_phyloseq.RData")
 
-# What other variables should we test?
-sample_variables(deer_filt2)
-
-# Examples:
-plot_richness(deer_filt2, x="averagesoilrelativehumidity", measures="Shannon")
-
-plot_richness(deer_filt2, x="averagesoiltemperature", measures="Shannon")
