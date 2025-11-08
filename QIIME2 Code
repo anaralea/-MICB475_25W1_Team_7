@@ -53,8 +53,8 @@ qiime feature-table tabulate-seqs \
 # Create a new classifier
 qiime feature-classifier extract-reads \
   --i-sequences /datasets/classifiers/silva_ref_files/silva-138-99-seqs.qza \
-  --p-f-primer TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG \ 
-  --p-r-primer GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG \ 
+  --p-f-primer CCTACGGGNGGCWGCAG \
+  --p-r-primer GACTACHVGGGTATCTAATCC \
   --p-trunc-len 250 \
   --o-reads ref-seqs.qza
 
