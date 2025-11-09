@@ -87,6 +87,25 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-alignment aligned-rep-seqs.qza \
   --o-masked-alignment masked-aligned-rep-seqs.qza \
   --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza \
+  --p-partree
+
+#Alternative phylogenetic tree code
+qiime alignment mafft \
+  --i-sequences rep-seqs.qza \
+  --o-alignment aligned-rep-seqs.qza \
+  --p-parttree
+
+qiime alignment mask \
+  --i-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza
+
+qiime phylogeny fasttree \
+  --i-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza
+
+qiime phylogeny midpoint-root \
+  --i-tree unrooted-tree.qza \
   --o-rooted-tree rooted-tree.qza
 
 # Convert the table.qza into a text file
