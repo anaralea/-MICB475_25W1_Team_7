@@ -118,3 +118,11 @@ qiime tools export \
 qiime tools export \
   --input-path taxonomy.qza \
   --output-path taxa_export
+
+#Copy files onto local machine
+
+scp root@10.19.139.157:/data/deer_project2/feature-table.txt .
+
+scp -r root@10.19.139.157:/data/deer_project2/tree_export .
+
+scp -r root@10.19.139.157:/data/deer_project2/taxa_export .
