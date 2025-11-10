@@ -81,15 +81,6 @@ qiime taxa barplot \
   --m-metadata-file /data/deer2_metadata_updated.tsv \
   --o-visualization taxa-bar-plots.qzv
 
-# Generate a tree for phylogenetic diversity analyses
-qiime phylogeny align-to-tree-mafft-fasttree \
-  --i-sequences rep-seqs.qza \
-  --o-alignment aligned-rep-seqs.qza \
-  --o-masked-alignment masked-aligned-rep-seqs.qza \
-  --o-tree unrooted-tree.qza \
-  --o-rooted-tree rooted-tree.qza \
-  --p-partree
-
 #Alternative phylogenetic tree code
 qiime alignment mafft \
   --i-sequences rep-seqs.qza \
