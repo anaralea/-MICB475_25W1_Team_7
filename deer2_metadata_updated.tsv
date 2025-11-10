@@ -1,0 +1,101 @@
+sample-id	biol_stat	geo_loc_name_country	geo_loc_name_country_continent	Host_Age	Host	library_name	samplename	host_sex	pathology
+SRR23559414	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-506	AK-Deer-Sample:18-506	female	LN POS
+SRR23559415	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-480	AK-Deer-Sample:18-480	male	BR & LN POS
+SRR23559416	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-478	AK-Deer-Sample:18-478	male	BR & LN POS
+SRR23559417	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-472	AK-Deer-Sample:18-472	female	BR & LN POS
+SRR23559418	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-470	AK-Deer-Sample:18-470	female	LN POS
+SRR23559419	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-467	AK-Deer-Sample:18-467	female	BR & LN POS
+SRR23559420	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-460	AK-Deer-Sample:18-460	female	LN POS
+SRR23559421	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-459	AK-Deer-Sample:18-459	female	LN POS
+SRR23559422	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-458	AK-Deer-Sample:18-458	female	LN POS
+SRR23559423	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-445	AK-Deer-Sample:18-445	female	BR & LN POS
+SRR23559424	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-96	AK-Deer-Sample:14-96	female	Neg
+SRR23559425	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-307	AK-Deer-Sample:18-307	female	LN POS
+SRR23559426	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-295	AK-Deer-Sample:18-295	male	LN POS
+SRR23559427	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-294	AK-Deer-Sample:18-294	female	BR & LN POS
+SRR23559428	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-290	AK-Deer-Sample:18-290	female	LN POS
+SRR23559429	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-276	AK-Deer-Sample:18-276	female	LN POS
+SRR23559430	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-248	AK-Deer-Sample:18-248	female	LN POS
+SRR23559431	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-247	AK-Deer-Sample:18-247	female	BR & LN POS
+SRR23559432	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-215	AK-Deer-Sample:18-215	female	BR & LN POS
+SRR23559433	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-209	AK-Deer-Sample:18-209	male	BR & LN POS
+SRR23559434	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-208	AK-Deer-Sample:18-208	male	BR & LN POS
+SRR23559435	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-93	AK-Deer-Sample:14-93	female	Neg
+SRR23559436	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-207	AK-Deer-Sample:18-207	male	LN POS
+SRR23559437	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-202	AK-Deer-Sample:18-202	male	LN POS
+SRR23559438	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-371	AK-Deer-Sample:17-371	female	LN POS
+SRR23559439	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-330	AK-Deer-Sample:17-330	female	LN POS
+SRR23559440	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-329	AK-Deer-Sample:17-329	female	LN POS
+SRR23559441	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-327	AK-Deer-Sample:17-327	male	LN POS
+SRR23559442	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-253	AK-Deer-Sample:17-253	female	BR & LN POS
+SRR23559443	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-248	AK-Deer-Sample:17-248	female	BR & LN POS
+SRR23559444	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-235	AK-Deer-Sample:17-235	female	LN POS
+SRR23559445	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-204	AK-Deer-Sample:17-204	male	BR & LN POS
+SRR23559446	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-91	AK-Deer-Sample:14-91	female	Neg
+SRR23559447	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:16-95	AK-Deer-Sample:16-95	female	BR & LN POS
+SRR23559448	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:16-38	AK-Deer-Sample:16-38	female	BR & LN POS
+SRR23559449	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:16-29	AK-Deer-Sample:16-29	female	LN POS
+SRR23559450	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:16-24	AK-Deer-Sample:16-24	female	BR & LN POS
+SRR23559451	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:16-143	AK-Deer-Sample:16-143	female	LN POS
+SRR23559452	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-330	AK-Deer-Sample:15-330	female	LN POS
+SRR23559453	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-319	AK-Deer-Sample:15-319	female	BR & LN POS
+SRR23559454	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-311	AK-Deer-Sample:15-311	male	LN POS
+SRR23559455	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-285	AK-Deer-Sample:15-285	female	LN POS
+SRR23559456	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-53	AK-Deer-Sample:14-53	female	BR & LN POS
+SRR23559457	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-83	AK-Deer-Sample:14-83	female	Neg
+SRR23559458	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-52	AK-Deer-Sample:14-52	female	BR & LN POS
+SRR23559459	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-51	AK-Deer-Sample:14-51	female	LN POS
+SRR23559460	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-33	AK-Deer-Sample:14-33	female	LN POS
+SRR23559461	CWD Pos.	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:18-513	AK-Deer-Sample:18-513	female	BR & LN POS
+SRR23559462	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-290	AK-Deer-Sample:14-290	male	BR &LN POS
+SRR23559463	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-269	AK-Deer-Sample:14-269	male	LN POS
+SRR23559464	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-26	AK-Deer-Sample:14-26	female	BR & LN POS
+SRR23559465	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-25	AK-Deer-Sample:14-25	female	BR & LN POS
+SRR23559466	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-13	AK-Deer-Sample:14-13	female	BR & LN POS
+SRR23559467	CWD Pos	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-11	AK-Deer-Sample:14-11	female	
+SRR23559468	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-78	AK-Deer-Sample:14-78	female	Neg
+SRR23559469	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-361	AK-Deer-Sample:17-361	female	Neg
+SRR23559470	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-359	AK-Deer-Sample:17-359	female	Neg
+SRR23559471	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-358	AK-Deer-Sample:17-358	female	Neg
+SRR23559472	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-357	AK-Deer-Sample:17-357	female	Neg
+SRR23559473	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-356	AK-Deer-Sample:17-356	female	Neg
+SRR23559474	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-355	AK-Deer-Sample:17-355	female	Neg
+SRR23559475	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-354	AK-Deer-Sample:17-354	female	Neg
+SRR23559476	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-347	AK-Deer-Sample:17-347	female	Neg
+SRR23559477	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-346	AK-Deer-Sample:17-346	female	Neg
+SRR23559478	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-343	AK-Deer-Sample:17-343	female	Neg
+SRR23559479	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-289	AK-Deer-Sample:14-289	male	Neg
+SRR23559480	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-341	AK-Deer-Sample:17-341	female	Neg
+SRR23559481	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-340	AK-Deer-Sample:17-340	female	Neg
+SRR23559482	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-339	AK-Deer-Sample:17-339	female	Neg
+SRR23559483	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-335	AK-Deer-Sample:17-335	female	Neg
+SRR23559484	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-333	AK-Deer-Sample:17-333	female	Neg
+SRR23559485	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-326	AK-Deer-Sample:17-326	female	Neg
+SRR23559486	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-322	AK-Deer-Sample:17-322	female	Neg
+SRR23559487	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-321	AK-Deer-Sample:17-321	female	Neg
+SRR23559488	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-303	AK-Deer-Sample:17-303	male	Neg
+SRR23559489	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-302	AK-Deer-Sample:17-302	male	Neg
+SRR23559490	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-281	AK-Deer-Sample:14-281	male	Neg
+SRR23559491	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-298	AK-Deer-Sample:17-298	female	Neg
+SRR23559492	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-297	AK-Deer-Sample:17-297	female	Neg
+SRR23559493	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-294	AK-Deer-Sample:17-294	female	Neg
+SRR23559494	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-172	AK-Deer-Sample:17-172	male	Neg
+SRR23559495	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:17-170	AK-Deer-Sample:17-170	male	Neg
+SRR23559496	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-243	AK-Deer-Sample:15-243	female	Neg
+SRR23559497	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-241	AK-Deer-Sample:15-241	male	Neg
+SRR23559498	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-240	AK-Deer-Sample:15-240	female	Neg
+SRR23559499	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-239	AK-Deer-Sample:15-239	female	Neg
+SRR23559500	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-237	AK-Deer-Sample:15-237	male	Neg
+SRR23559501	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-143	AK-Deer-Sample:14-143	female	Neg
+SRR23559502	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-236	AK-Deer-Sample:15-236	female	Neg
+SRR23559503	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-235	AK-Deer-Sample:15-235	female	Neg
+SRR23559504	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-234	AK-Deer-Sample:15-234		Neg
+SRR23559505	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-233	AK-Deer-Sample:15-233	female	Neg
+SRR23559506	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-227	AK-Deer-Sample:15-227	female	Neg
+SRR23559507	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-225	AK-Deer-Sample:15-225	female	Neg
+SRR23559508	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-223	AK-Deer-Sample:15-223	female	Neg
+SRR23559509	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-219	AK-Deer-Sample:15-219	female	Neg
+SRR23559510	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-218	AK-Deer-Sample:15-218	female	Neg
+SRR23559511	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:15-217	AK-Deer-Sample:15-217	female	Neg
+SRR23559512	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-120	AK-Deer-Sample:14-120	female	Neg
+SRR23559513	CWD Neg	USA	North America	1-3 years	White-Tailed_Deer_Odocoileus virginianus	Deer-Feces:14-112	AK-Deer-Sample:14-112	female	Neg
