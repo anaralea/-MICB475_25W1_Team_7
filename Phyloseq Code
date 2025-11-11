@@ -55,6 +55,9 @@ TAX <- tax_table(tax_mat)
 # Merge all into a phyloseq object
 deer <- phyloseq(OTU, SAMP, TAX, phylotree)
 
+# Check phyloseq object is made properly
+class(deer)
+
 #### Remove chloroplasts, mitochondria, non-bacterial samples ####
 deer_filt <- subset_taxa(deer,  Domain == "d__Bacteria" & Class!="c__Chloroplast" & Family !="f__Mitochondria")
 
