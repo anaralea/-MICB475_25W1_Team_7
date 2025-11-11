@@ -33,7 +33,7 @@ OTU <- otu_table(otu_mat, taxa_are_rows = TRUE)
 # Save everything except sampleid as new data frame
 samp_df <- as.data.frame(meta[,-1])
 # Make sampleids the rownames
-rownames(samp_df)<- meta$sampleid
+rownames(samp_df)<- meta$'sample-id'
 # Make phyloseq sample data with sample_data() function
 SAMP <- sample_data(samp_df)
 
