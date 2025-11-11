@@ -6,7 +6,7 @@ library(vegan)
 #### Load data ####
 # Change file paths as necessary
 # This is the metadata
-metafp <- "sample-data.txt"
+metafp <- "deer2_metadata_updated.tsv"
 meta <- read_delim(metafp, delim="\t")
 
 # This is the table.qza converted to txt
