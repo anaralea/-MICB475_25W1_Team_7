@@ -39,6 +39,7 @@ SAMP <- sample_data(samp_df)
 
 #### Formatting taxonomy ####
 # Convert taxon strings to a table with separate taxa rank columns
+# REMOVE "select(-Consensus)%>%" because there was no column in tax.
 tax_mat <- tax %>% select(-Consensus)%>%
   separate(col=Taxon, sep="; "
            , into = c("Domain","Phylum","Class","Order","Family","Genus","Species")) %>%
