@@ -11,10 +11,12 @@
 - Core microbiome & indicator taxa (aim 2)
 - Differential abundance analysis (aim 3)
 - Functional analysis (aim 4)
-3. Plan actionables for next week/meeting
-  - Discuss schedules/availabilities for next week
-  - Delegate tasks
-  - Discuss goals for next meeting
+3. Project Proposal Resubmission
+- Go over grading rubric
+4. Plan actionables for next week/meeting
+- Discuss schedules/availabilities for next week
+- Delegate tasks
+- Discuss goals for next meeting
 
 ## November 7, 2025
 ### Agenda:
