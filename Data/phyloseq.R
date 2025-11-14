@@ -33,6 +33,8 @@ rownames(otu_mat) <- otu$`#OTU ID`
 OTU <- otu_table(otu_mat, taxa_are_rows = TRUE) 
 
 #### Format sample metadata ####
+# Correct the BR and LN group in the males
+meta$pathology[meta$pathology == "BR &LN POS"] <- "BR & LN POS"
 # Save everything except sampleid as new data frame
 samp_df <- as.data.frame(meta[,-1])
 # Make sampleids the rownames
@@ -43,6 +45,7 @@ SAMP <- sample_data(samp_df)
 #### Formatting taxonomy ####
 # Convert taxon strings to a table with separate taxa rank columns
 tax_mat <- tax %>%
+  select(-Confidence) %>%
   separate(col=Taxon, sep="; "
            , into = c("Domain","Phylum","Class","Order","Family","Genus","Species")) %>%
   as.matrix() # Saving as a matrix
@@ -70,3 +73,4 @@ deer_male <- subset_samples(deer_filt, host_sex == "male")
 ## Save phyloseq objects to computer
 save(deer_female, file = "deer_female_phyloseq.RData")
 save(deer_male, file = "deer_male_phyloseq.RData")
+
