@@ -1,4 +1,21 @@
 # -MICB475_25W1_Team_7
+## November 14, 2025
+### Agenda:
+1. Phyloseq Code
+- Phyloseq objects are made
+- Updated code and saved phyloseq objects can be found in phyloseq folder on Github
+- Does everything look good?
+3. Next steps / Divide up tasks
+- What processing and analysis are we doing next? And who is doing what?
+- Alpha & beta diversity (aim 1)
+- Core microbiome & indicator taxa (aim 2)
+- Differential abundance analysis (aim 3)
+- Functional analysis (aim 4)
+4. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week
+  - Delegate tasks
+  - Discuss goals for next meeting
+
 ## November 7, 2025
 ### Agenda:
 _Note: Please edit/update the Nov_7.md file in the Meeting_minutes folder with today's meeting notes!_
