@@ -4,6 +4,8 @@ setwd("C:/Users/ys_cl/OneDrive - UBC/UBC W25/MICB 475/Project 2/coremicrobiome")
 # Load packages
 library(phyloseq)
 library(microbiome)
+library(tidyverse)
+library(ggVennDiagram)
 
 # Convert phyloseq object to relative abundance 
 # Do respective one for female vs male phyloseq
