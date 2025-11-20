@@ -15,9 +15,9 @@ load("../phyloseq/deer_male_phyloseq.RData")
 
 ## Convert phyloseq object to relative abundance 
 # Do respective one for female vs male phyloseq
-phyloseq_female_RA <- transform_sample_counts(deer_female_phyloseq, fun=function(x) x/sum(x))
+phyloseq_female_RA <- transform_sample_counts(deer_female, fun=function(x) x/sum(x))
 # OR
-phyloseq_male_RA <- transform_sample_counts(deer_male_phyloseq, fun=function(x) x/sum(x))
+phyloseq_male_RA <- transform_sample_counts(deer_male, fun=function(x) x/sum(x))
 
 ## Create phyloseq objects that contain only samples that belong to each pathology group
 
