@@ -43,7 +43,7 @@ female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0, prevalenc
 pathology_list_full <- list(Negative = female_neg_ASVs, LN_POS = female_ln_pos_ASVs, BR_LN_POS = female_br_ln_pos_ASVs)
 
 # Create Venn diagram to visualize siimilarities between core members in each group
-first_venn <- ggVennDiagram(x = pathology_list_full) +
+first_female_venn <- ggVennDiagram(x = pathology_list_full) +
   scale_fill_gradient(low = "white", high = "steelblue") +  # color of overlap areas
   theme(
     panel.background = element_rect(fill = "white", color = NA),  # main panel white
@@ -52,7 +52,7 @@ first_venn <- ggVennDiagram(x = pathology_list_full) +
 
 # Save the plot
 ggsave(
-  filename = "venn_pathology.png",
+  filename = "venn_female_pathology.png",
   plot = first_venn,
   width = 7,
   height = 6,
