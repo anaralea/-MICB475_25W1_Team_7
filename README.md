@@ -1,4 +1,26 @@
 # -MICB475_25W1_Team_7
+## November 21, 2025
+### Agenda:
+1. Results from analyses
+  - Alpha & beta diversity (aim 1) - Joshua
+  - Core microbiome & indicator taxa (aim 2) - CJ
+  - Differential abundance analysis (aim 3) - Theresa
+2. Next steps
+  - Do we have enough to talk about from the figures?
+  - Functional analysis (aim 4), does this need to be done?
+3. Presentation
+  - We are paired with team 8
+  - Soft deadline: November 28th 11:59PM (next meeting)
+  - Due date: November 30th 11:59PM
+4. Manuscript
+  - Have draft structure and outline ready for next meeting
+  - Draft due date: December 14th 11:59PM
+  - Final due date: December 21st 11:59PM
+5. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week(s)
+  - Delegate tasks
+  - Discuss goals for next meeting
+
 ## November 14, 2025
 ### Agenda:
 1. Phyloseq Code
