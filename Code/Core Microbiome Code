@@ -7,3 +7,20 @@ library(microbiome)
 
 # Convert phyloseq object to relative abundance 
 # Do respective one for female vs male phyloseq
+phyloseq_object <- transform_sample_counts(phyloseq_rawabundance, fun=function(x) x/sum(x))
+
+# Create phyloseq objects that contain only samples that belong to each pathology group
+group1_phyloseq <- subset_samples(phyloseq_object, Group=="group1")
+group2_phyloseq <- subset_samples(phyloseq_object, Group=="group2")
+
+# Identify core members in each group
+# Set choice of detection (abundance) = X
+# Set detection threshold (prevalance) = X
+group1_core <- core_members(group1_phyloseq, detection=0, prevalence=0.8)
+group2_core <- core_members(group2_phyloseq, detection=0, prevalence=0.8)
+
+# Visualize siimilarities between core members in each group
+library(ggVennDiagram)
+ggVennDiagram(x=list(group1_core, group2_core))
+
+
