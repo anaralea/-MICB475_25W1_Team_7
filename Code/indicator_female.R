@@ -1,0 +1,41 @@
+## Set working directory
+setwd("C:/Users/ys_cl/OneDrive - UBC/UBC W25/MICB 475/Project 2/indicatorspecies")
+
+# Load packages
+library(tidyverse)
+library(phyloseq)
+library(indicspecies)
+
+#### Load data ####
+load("../phyloseq/deer_female_phyloseq.RData")
+
+#### Indicator Species/Taxa Analysis ####
+# glom to Genus
+deer_female_genus <- tax_glom(deer_female, "Genus", NArm = FALSE)
+deer_female_genus_RA <- transform_sample_counts(deer_female_genus, fun=function(x) x/sum(x))
+
+sum(is.na(sample_data(deer_female_genus_RA)$pathology))
+sample_data(deer_female_genus_RA)[is.na(sample_data(deer_female_genus_RA)$pathology), ]
+
+deer_female_genus_RA_noNA <- subset_samples(deer_female_genus_RA, !is.na(pathology))
+
+#ISA
+isa_deer_female <- multipatt(t(otu_table(deer_female_genus_RA_noNA)), cluster = sample_data(deer_female_genus_RA_noNA)$`pathology`)
+summary(isa_deer_female)
+taxtable <- tax_table(deer_female) %>% as.data.frame() %>% rownames_to_column(var="ASV")
+
+# consider that your table is only going to be resolved up to the genus level, be wary of 
+# anything beyond the glomed taxa level
+female_deer_ISA_table <- isa_deer_female$sign %>%
+  rownames_to_column(var="ASV") %>%
+  left_join(taxtable) %>%
+  filter(p.value<0.05) 
+  
+# Save as TSV
+write.table(
+    female_deer_ISA_table,
+    file = "female_indicator_species.tsv",
+    sep = "\t",
+    quote = FALSE,
+    row.names = FALSE
+  )
