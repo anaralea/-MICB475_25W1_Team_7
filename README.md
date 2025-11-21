@@ -7,6 +7,8 @@
       - Venn diagrams (x2) for female & male
       - ISA tables in .tsv (x2) for female & male
   - Differential abundance analysis (aim 3) - Theresa
+    - Volcano plots (x6) for female & male
+    - Bar plots (x6) for female & male
 2. Next steps
   - Do we have enough to talk about from the figures?
   - Functional analysis (aim 4), does this need to be done?
