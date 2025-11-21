@@ -6,8 +6,8 @@
   - Core microbiome & indicator taxa (aim 2) - Clara
       - Venn diagrams (x2) for female & male
           - While creating this, I set:
-             # Set choice of detection (abundance) = 0
-            # Set detection threshold (prevalance) = 0.2. 0.3, 0.2
+            choice of detection (abundance) = 0
+            choice of detection threshold (prevalance) = 0.2. 0.3, 0.2
 female_neg_ASVs <- core_members(female_neg, detection = 0, prevalence = 0.2)
 female_ln_pos_ASVs <- core_members(female_ln_pos, detection = 0, prevalence = 0.3)
 female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0, prevalence = 0.2)
