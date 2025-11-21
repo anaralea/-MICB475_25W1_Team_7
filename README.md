@@ -1,9 +1,11 @@
 # -MICB475_25W1_Team_7
 ## November 21, 2025
 ### Agenda:
-1. Results from analyses
+1. How to interpret results from analyses:
   - Alpha & beta diversity (aim 1) - Joshua
-  - Core microbiome & indicator taxa (aim 2) - CJ
+  - Core microbiome & indicator taxa (aim 2) - Clara
+      - Venn diagrams (x2) for female & male
+      - ISA tables in .tsv (x2) for female & male
   - Differential abundance analysis (aim 3) - Theresa
 2. Next steps
   - Do we have enough to talk about from the figures?
