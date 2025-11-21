@@ -1,0 +1,5 @@
+ASV	s.BR & LN POS	s.LN POS	s.Neg	index	stat	p.value	Domain	Phylum	Class	Order	Family	Genus	Species
+ee4f2f5875659e864b40823869701c86	0	0	1	3	0.66090858159473	0.04	d__Bacteria	p__Pseudomonadota	c__Alphaproteobacteria	o__Hyphomicrobiales	f__Pleomorphomonadaceae	g__Methylobrevis	NA
+ab928e52377e184fb6d63d3026519ff5	0	1	0	2	0.738321302081263	0.03	d__Bacteria	p__Pseudomonadota	c__Alphaproteobacteria	o__Rhodobacterales	f__Paracoccaceae	NA	NA
+3e4458b1721cf29809287e9ba83ad2f0	0	0	1	3	0.792142084978657	0.005	d__Bacteria	p__Bacillota	c__Bacilli	o__Paenibacillales	f__Paenibacillaceae	g__Marinicrinis	NA
+8374d46964dbd48f8b1d48e58d8e4c1f	0	0	1	3	0.696674215350262	0.04	d__Bacteria	p__Bacillota	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Mobilisporobacter	NA
