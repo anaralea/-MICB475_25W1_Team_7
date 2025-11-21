@@ -1,10 +1,17 @@
 # -MICB475_25W1_Team_7
 ## November 21, 2025
 ### Agenda:
-1. How to interpret results from analyses:
+1. How to interpret results from analyses (https://docs.google.com/document/d/1hUvy8htjWEY0QiQ4kn2A1pbDCHXjczSSJCuUWtARLBE/edit?usp=sharing):
   - Alpha & beta diversity (aim 1) - Joshua
   - Core microbiome & indicator taxa (aim 2) - Clara
       - Venn diagrams (x2) for female & male
+          - While creating this, I set:
+             # Set choice of detection (abundance) = 0
+            # Set detection threshold (prevalance) = 0.2. 0.3, 0.2
+female_neg_ASVs <- core_members(female_neg, detection = 0, prevalence = 0.2)
+female_ln_pos_ASVs <- core_members(female_ln_pos, detection = 0, prevalence = 0.3)
+female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0, prevalence = 0.2)
+          - Is this okay?
       - ISA tables in .tsv (x2) for female & male
   - Differential abundance analysis (aim 3) - Theresa
     - Volcano plots (x6) for female & male
