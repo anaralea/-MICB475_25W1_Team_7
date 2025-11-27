@@ -50,7 +50,7 @@ pathology_list_full <- list(Negative = female_neg_ASVs, LN_POS = female_ln_pos_A
 pathology_list_full <- list(Negative = male_neg_ASVs, LN_POS = male_ln_pos_ASVs, BR_LN_POS = male_br_ln_pos_ASVs)
 
 ## Create Venn diagram to visualize siimilarities between core members in each group
-first_female_venn <- ggVennDiagram(x = pathology_list_full) +
+female_venn <- ggVennDiagram(x = pathology_list_full) +
   scale_fill_gradient(low = "white", high = "steelblue") +  # color of overlap areas
   theme(
     panel.background = element_rect(fill = "white", color = NA),  # main panel white
@@ -58,7 +58,7 @@ first_female_venn <- ggVennDiagram(x = pathology_list_full) +
   )
 
 # OR
-first_male_venn <- ggVennDiagram(x = pathology_list_full) +
+male_venn <- ggVennDiagram(x = pathology_list_full) +
   scale_fill_gradient(low = "white", high = "steelblue") +  # color of overlap areas
   theme(
     panel.background = element_rect(fill = "white", color = NA),  # main panel white
@@ -67,21 +67,23 @@ first_male_venn <- ggVennDiagram(x = pathology_list_full) +
 
 ## Save the plot
 ggsave(
-  filename = "venn_female_pathology.png",
-  plot = first_venn,
+  filename = "venn_female_pathology_v2.png",
+  plot = female_venn,
   width = 7,
   height = 6,
   dpi = 300
-)
+) + labs(title = "Core Microbiome Overlap in Female Deer by Pathology")
+
 
 # OR
 
 ggsave(
-  filename = "venn_male_pathology.png",
-  plot = first_venn,
+  filename = "venn_male_pathology_v2.png",
+  plot = male_venn,
   width = 7,
   height = 6,
   dpi = 300
-)
+) + labs(title = "Core Microbiome Overlap in Male Deer by Pathology")
+
 
 
