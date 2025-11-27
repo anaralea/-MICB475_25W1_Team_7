@@ -52,6 +52,14 @@ male_deer_ISA_table <- isa_deer_male$sign %>%
   
 # Save as TSV
 write.table(
+    female_deer_ISA_table,
+    file = "female_indicator_species_v2.tsv",
+    sep = "\t",
+    quote = FALSE,
+    row.names = FALSE
+  )
+
+write.table(
     male_deer_ISA_table,
     file = "male_indicator_species.tsv",
     sep = "\t",
