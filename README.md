@@ -1,7 +1,13 @@
 # -MICB475_25W1_Team_7
 ## November 28, 2025
 ### Agenda:
-1. Discuss Functional Analysis
+1. Updates/changes from last week
+  - Alpha & beta diversity (aim 1) - Joshua
+  - Core microbiome & indicator taxa (aim 2) - Clara
+      - Core microbiome v2 codes --> generated new Venn diagrams v2 after adjusting abundance = 0.001 and prevalence = 0.2
+      - Indicator taxa v2 code (for female only) --> generated new .tsv file for female after filtering for stat >= 0.6 OR unique to one condition
+  - Differential abundance analysis (aim 3) - Theresa
+3. Discuss Functional Analysis
   - Will focus on doing metacyc analysis only
   - Where to find ggpicrust tutorial R file?
   - Which differential abundance analysis to run?
