@@ -7,13 +7,13 @@
       - Core microbiome v2 codes --> generated new Venn diagrams v2 after adjusting abundance = 0.001 and prevalence = 0.2
       - Indicator taxa v2 code (for female only) --> generated new .tsv file for female after filtering for stat >= 0.6 OR unique to one condition
   - Differential abundance analysis (aim 3) - Theresa
-3. Discuss Functional Analysis
+2. Discuss Functional Analysis
   - Will focus on doing metacyc analysis only
   - Where to find ggpicrust tutorial R file?
   - Which differential abundance analysis to run?
   - Should we generate a heatmap and PCA plot?
   - Should we do an enrichment analysis?
-2. Discuss Presentation powerpoint
+3. Discuss Presentation powerpoint
   - Finalise title
   - Get feedback on background slides
   - Discuss which figures to include
@@ -21,7 +21,7 @@
   - Should we add a slide discussing where we got the dataset from?
   - How pretty do we want the presentation to be? Ana is not inclined towards powerpoint design :(
   - https://docs.google.com/presentation/d/1ZBg2K2fEGqfh-9jn72PzBNw0xwfwf0P_NF1B1iTidC0/edit?usp=sharing
-3. Discuss Group 8's presentation
+4. Discuss Group 8's presentation
   - When/who to reach out to to get primed on the machine learning aspect
   - Should touch base with each other once we receive the presentation on who will be presenting what part
 ## November 21, 2025
