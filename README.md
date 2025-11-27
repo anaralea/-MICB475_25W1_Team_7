@@ -7,13 +7,14 @@
   - Which differential abundance analysis to run?
   - Should we generate a heatmap and PCA plot?
   - Should we do an enrichment analysis?
-3. Discuss Presentation powerpoint
+2. Discuss Presentation powerpoint
   - Finalise title
   - Get feedback on background slides
   - Discuss which figures to include
   - Discuss what main points we want talked about for each figure
+  - Should we add a slide discussing where we got the dataset from?
   - How pretty do we want the presentation to be? Ana is not inclined towards powerpoint design :(
-4. Discuss Group 8's presentation
+3. Discuss Group 8's presentation
   - When/who to reach out to to get primed on the machine learning aspect
   - Should touch base with each other once we receive the presentation on who will be presenting what part
 ## November 21, 2025
