@@ -14,6 +14,7 @@
   - Discuss what main points we want talked about for each figure
   - Should we add a slide discussing where we got the dataset from?
   - How pretty do we want the presentation to be? Ana is not inclined towards powerpoint design :(
+  - https://docs.google.com/presentation/d/1ZBg2K2fEGqfh-9jn72PzBNw0xwfwf0P_NF1B1iTidC0/edit?usp=sharing
 3. Discuss Group 8's presentation
   - When/who to reach out to to get primed on the machine learning aspect
   - Should touch base with each other once we receive the presentation on who will be presenting what part
