@@ -7,6 +7,8 @@
       - Core microbiome v2 codes --> generated new Venn diagrams v2 after adjusting abundance = 0.001 and prevalence = 0.2
       - Indicator taxa v2 code (for female only) --> generated new .tsv file for female after filtering for stat >= 0.6 OR unique to one condition
   - Differential abundance analysis (aim 3) - Theresa
+      - Validated DESeq2 results
+      - Reuploaded volcano and bar plots, updated R script as well
 2. Discuss Functional Analysis
   - Will focus on doing metacyc analysis only
   - Where to find ggpicrust tutorial R file?
@@ -24,6 +26,15 @@
 4. Discuss Group 8's presentation
   - When/who to reach out to to get primed on the machine learning aspect
   - Should touch base with each other once we receive the presentation on who will be presenting what part
+5. Manuscript
+  - Have draft structure and outline ready for next meeting
+  - Draft due date: December 14th 11:59PM
+  - Final due date: December 21st 11:59PM
+6. Plan actionables for next week/meeting
+  - Discuss schedules/availabilities for next week(s)
+  - Delegate tasks
+  - Discuss goals for next meeting
+
 ## November 21, 2025
 ### Agenda:
 1. How to interpret results from analyses (https://docs.google.com/document/d/1hUvy8htjWEY0QiQ4kn2A1pbDCHXjczSSJCuUWtARLBE/edit?usp=sharing):
