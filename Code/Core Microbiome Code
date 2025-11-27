@@ -34,16 +34,16 @@ male_ln_pos <- subset_samples(phyloseq_male_RA, pathology=="LN POS")
 male_br_ln_pos <- subset_samples(phyloseq_male_RA, pathology=="BR & LN POS")
 
 ## Identify core members in each group
-# Set choice of detection (abundance) = 0
-# Set detection threshold (prevalance) = 0.2. 0.3, 0.2
-female_neg_ASVs <- core_members(female_neg, detection = 0, prevalence = 0.2)
-female_ln_pos_ASVs <- core_members(female_ln_pos, detection = 0, prevalence = 0.3)
-female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0, prevalence = 0.2)
+# Set choice of detection (abundance) = 0.001
+# Set detection threshold (prevalance) = 0.2
+female_neg_ASVs <- core_members(female_neg, detection = 0.001, prevalence = 0.2)
+female_ln_pos_ASVs <- core_members(female_ln_pos, detection = 0.001, prevalence = 0.2)
+female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0.001, prevalence = 0.2)
 
 # OR
-male_neg_ASVs <- core_members(male_neg, detection = 0, prevalence = 0.2)
-male_ln_pos_ASVs <- core_members(male_ln_pos, detection = 0, prevalence = 0.3)
-male_br_ln_pos_ASVs <- core_members(male_br_ln_pos, detection = 0, prevalence = 0.2)
+male_neg_ASVs <- core_members(male_neg, detection = 0.001, prevalence = 0.2)
+male_ln_pos_ASVs <- core_members(male_ln_pos, detection = 0.001, prevalence = 0.2)
+male_br_ln_pos_ASVs <- core_members(male_br_ln_pos, detection = 0.001, prevalence = 0.2)
 
 pathology_list_full <- list(Negative = female_neg_ASVs, LN_POS = female_ln_pos_ASVs, BR_LN_POS = female_br_ln_pos_ASVs)
 # OR
