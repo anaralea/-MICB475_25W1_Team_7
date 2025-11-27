@@ -1,4 +1,21 @@
 # -MICB475_25W1_Team_7
+## November 28, 2025
+### Agenda:
+1. Discuss Functional Analysis
+  - Will focus on doing metacyc analysis only
+  - Where to find ggpicrust tutorial R file?
+  - Which differential abundance analysis to run?
+  - Should we generate a heatmap and PCA plot?
+  - Should we do an enrichment analysis?
+3. Discuss Presentation powerpoint
+  - Finalise title
+  - Get feedback on background slides
+  - Discuss which figures to include
+  - Discuss what main points we want talked about for each figure
+  - How pretty do we want the presentation to be? Ana is not inclined towards powerpoint design :(
+4. Discuss Group 8's presentation
+  - When/who to reach out to to get primed on the machine learning aspect
+  - Should touch base with each other once we receive the presentation on who will be presenting what part
 ## November 21, 2025
 ### Agenda:
 1. How to interpret results from analyses (https://docs.google.com/document/d/1hUvy8htjWEY0QiQ4kn2A1pbDCHXjczSSJCuUWtARLBE/edit?usp=sharing):
