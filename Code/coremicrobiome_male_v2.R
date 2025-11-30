@@ -29,22 +29,26 @@ male_br_ln_pos_ASVs <- core_members(male_br_ln_pos, detection = 0.001, prevalenc
 
 pathology_list_full <- list(Negative = male_neg_ASVs, LN_POS = male_ln_pos_ASVs, BR_LN_POS = male_br_ln_pos_ASVs)
 
-## Create Venn diagram to visualize siimilarities between core members in each group
-
-male_venn <- ggVennDiagram(x = pathology_list_full) +
-  scale_fill_gradient(low = "white", high = "steelblue") +  # color of overlap areas
+## Create Venn diagram to visualize similarities between core members in each group
+male_venn <- ggVennDiagram(
+  x = pathology_list_full,
+  label_alpha = 0,      # remove black background behind counts
+  label_size = 6        # slightly increase font size of counts
+) +
+  scale_fill_gradient(low = "white", high = "steelblue") +
   theme(
-    panel.background = element_rect(fill = "white", color = NA),  # main panel white
-    plot.background = element_rect(fill = "white", color = NA),   # entire plot background white
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
     plot.title = element_text(hjust = 0.5)  # centers the title
-  ) + labs(title = "Core Microbiome Overlap in Male Deer by Pathology")
+  ) +
+  labs(title = "Core Microbiome Overlap in Male Deer by Pathology")
 
 ## Save the plot
-
 ggsave(
   filename = "venn_male_pathology_v2.png",
   plot = male_venn,
   width = 7,
   height = 6,
   dpi = 300
-) 
+)
+
