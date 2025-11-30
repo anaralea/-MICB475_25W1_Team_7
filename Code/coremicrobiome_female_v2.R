@@ -29,14 +29,19 @@ female_br_ln_pos_ASVs <- core_members(female_br_ln_pos, detection = 0.001, preva
 
 pathology_list_full <- list(Negative = female_neg_ASVs, LN_POS = female_ln_pos_ASVs, BR_LN_POS = female_br_ln_pos_ASVs)
 
-## Create Venn diagram to visualize siimilarities between core members in each group
-female_venn <- ggVennDiagram(x = pathology_list_full) +
+## Create Venn diagram to visualize similarities between core members in each group
+female_venn <- ggVennDiagram(
+  x = pathology_list_full,
+  label_alpha = 0,      # remove black background behind counts
+  label_size = 6        # slightly increase font size of counts
+) +
   scale_fill_gradient(low = "white", high = "steelblue") +
   theme(
     panel.background = element_rect(fill = "white", color = NA),
     plot.background = element_rect(fill = "white", color = NA),
     plot.title = element_text(hjust = 0.5)  # centers the title
-  ) + labs(title = "Core Microbiome Overlap in Female Deer by Pathology")
+  ) +
+  labs(title = "Core Microbiome Overlap in Female Deer by Pathology")
 
 ## Save the plot
 ggsave(
@@ -45,5 +50,8 @@ ggsave(
   width = 7,
   height = 6,
   dpi = 300
-) 
+)
+
+
+
 
