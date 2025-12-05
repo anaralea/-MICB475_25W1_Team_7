@@ -1,0 +1,56 @@
+#Install packages
+# install.packages("devtools")
+# devtools::install_github("cafferychen777/ggpicrust2")
+# install.packages('MicrobiomeStat')
+# BiocManager::install("KEGGREST")
+# install.packages("GGally")
+
+#load libraries
+library(tidyverse)
+library(phyloseq)
+library(ggpicrust2)
+library(data.table)
+library(tibble)
+
+#Load metadata - edit to your own file path
+
+meta_female = readRDS('~/MICB 475/PICRUST/deer_female_phyloseq.rds') %>% .@sam_data %>% data.frame() %>% 
+  rownames_to_column('sample')
+
+meta_male = readRDS('~/MICB 475/PICRUST/deer_male_phyloseq.rds') %>% .@sam_data %>% data.frame() %>% 
+  rownames_to_column('sample')
+
+#Load data - EC (could not find KO data)
+
+ec <- read.delim('~/MICB 475/PICRUST/pred_metagenome_unstrat.tsv', row.names = 1 )
+
+# Filter to only compare two pathology states (Neg vs LN POS - Female) #can we do the analysis with all three variables?
+negvsln = meta_female %>% filter(pathology %in% c("Neg", "LN POS"))
+
+ec_filt = ec %>% select(all_of(negvsln$sample))
+
+# Perform pathway differential abundance analysis (DAA) using DESeq2 method
+daa_results_df_female_negvsln = pathway_daa(abundance = ec_filt,
+                             metadata = negvsln, 
+                             group = "pathology", 
+                             daa_method = "DESeq2", 
+                             select = NULL, reference = NULL)
+
+#With KO, do pathway annotation
+
+#Filter for p-value and log fold change
+
+daa_results_df_female_negvsln %>% filter(p_adjust< 0.05, abs(log2FoldChange) > 2) %>% nrow()
+
+#Pathway error bars
+
+peb = pathway_errorbar_fixed(abundance = ec_filt, 
+                             daa_results_df = daa_results_df_female_negvsln, 
+                             Group = negvsln$pathology, 
+                             wrap_label = T, wraplength=60,
+                             fc_cutoff = 2, order_by_log = F,
+                             p_values_threshold = 0.05 
+                              
+                      )
+
+#Error during wrapup: Visualization with 'pathway_errorbar' cannot be performed because there are no features with statistical significance. 
