@@ -1,4 +1,20 @@
 # -MICB475_25W1_Team_7
+## December 5, 2025
+### Agenda:
+1. Updates/changes from last week
+  - Differential abundance analysis (aim 3) - Theresa
+      - Reuploaded bar plots, updated R script with Avril's fixes
+2. Manuscript
+https://docs.google.com/document/d/1LeI5ZD_7_mg8iHGkYW9YQt7xeffRK-njS2K7YK2MUmw/edit?usp=sharing
+  - Would like to go over the rubric and sections
+  - Get guidance on what to write/focus on for each section (write bullet points)
+  - Draft due date: December 14th 11:59PM
+  - Final due date: December 21st 11:59PM
+3. Divide & Conquer
+  - Discuss schedules/availabilities for next week(s) (finals!!)
+  - Delegate tasks
+  - When do we want to check-in on the draft?
+
 ## November 28, 2025
 ### Agenda:
 1. Updates/changes from last week
