@@ -54,3 +54,8 @@
   - except for indicator taxa (keep the full one also)
   - for data, separate QIIME outputs and our outputs into folders
   - otherwise, that's okay
+
+4. Manuscript Split Workload
+  - Joshua, Clara, Theresa work on methods, discussion, result, figures/tables for the aims
+  - Ana will work on introduction, limitations, future directions and abstract?
+  - tentative split
