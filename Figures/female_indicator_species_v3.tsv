@@ -1,0 +1,8 @@
+ASV	s.BR & LN POS	s.LN POS	s.Neg	index	stat	p.value	Domain	Phylum	Class	Order	Family	Genus	Species
+0c74a788573805738700b39e5a025542	0	1	1	6	0.661577674378392	0.015	d__Bacteria	p__Actinomycetota	c__Actinobacteria	o__Micromonosporales	f__Micromonosporaceae	g__Polymorphospora	NA
+fd543aa11dce421d7fca21c522861d2d	1	1	0	4	0.610091098449873	0.03	d__Bacteria	p__Actinomycetota	c__Actinobacteria	o__Propionibacteriales	f__Nocardioidaceae	g__Mumia	NA
+f33cf0a86e8ba27d09edffada1c17574	1	1	0	4	0.607777452475083	0.025	d__Bacteria	p__Pseudomonadota	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	NA
+bed6eae88257449e00e005f35af9bf83	0	1	0	2	0.790390828082115	0.005	d__Bacteria	p__Bacillota	c__Bacilli	o__Bacillales	f__Planococcaceae	g__[Renibacterium]_salmoninarum_group	NA
+8872eeceeb3ea9989115ce469ebe2965	0	1	1	6	0.669762030071494	0.015	d__Bacteria	p__Bacillota	c__Clostridia	o__Eubacteriales	f__Eubacteriaceae	g__Pseudoramibacter	NA
+3da575403ee7e8cb0d157f7f6195f992	1	1	0	4	0.763736635425911	0.005	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Flavobacteriaceae	NA	NA
+49d7c892beb06e1b3fb1b5987d4d1b40	1	1	0	4	0.694036591691254	0.035	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	NA	NA
