@@ -27,14 +27,16 @@ taxtable <- tax_table(deer_female) %>% as.data.frame() %>% rownames_to_column(va
 
 # consider that your table is only going to be resolved up to the genus level, be wary of 
 # anything beyond the glomed taxa level
-# filter for stat >= 0.6 and p-value < 0.05
+# filter for p-value < 0.05, stat >= 0.6 AND unique to 1 pathology group
 female_deer_ISA_table <- isa_deer_female$sign %>%
   rownames_to_column(var = "ASV") %>%
-  left_join(taxtable) %>%
+  left_join(taxtable, by = "ASV") %>%
   filter(
     stat >= 0.6,
-    p.value < 0.05
+    p.value < 0.05,
+    rowSums(across(c(`s.BR & LN POS`, `s.LN POS`, s.Neg))) == 1  # unique to 1 pathology group
   )
+
 
 # Save as TSV
 write.table(
